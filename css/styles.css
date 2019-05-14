@@ -62,7 +62,7 @@ h, p{
 /* On screens that are 600px wide or less */
 @media screen and (max-width: 600px) {
   .card {
-    width: 90%;
+    width: 100%;
   }
 }
 .card:hover{
