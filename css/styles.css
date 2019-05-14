@@ -55,7 +55,7 @@ h, p{
 /* On screens that are 992px wide or less */
 @media screen and (max-width: 992px) {
   .card {
-    width: 60%;
+    width: 100%;
   }
 }
 
