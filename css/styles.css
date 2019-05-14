@@ -2,6 +2,7 @@
 @charset "utf-8";
 html{
 	height: 100%
+	width: 100%;
 	background-image: url(https://github.com/yangaxnkohla/yangaxnkohla.github.io/blob/master/images/lambda_anga.PNG?raw=true);
 }
 body{
@@ -10,6 +11,8 @@ body{
 	justify-content: center;
     align-items: center;
     min-height: 100% 
+    min-width: 100%;
+    background-size:100%
     background-image: url(https://github.com/yangaxnkohla/yangaxnkohla.github.io/blob/master/images/lambda_anga.PNG?raw=true);
 }
 /* On screens that are 992px wide or less */
