@@ -13,12 +13,12 @@ body{
   }
 }
 
-/* On screens that are 600px wide or less */
+/* On screens that are 600px wide or less 
 @media screen and (max-width: 600px) {
   body {
     width: 100%;
   }
-}
+}*/
 h, p{
 	font-family: "Jokerman";
 }
@@ -36,12 +36,12 @@ h, p{
   }
 }
 
-/* On screens that are 600px wide or less */
+/* On screens that are 600px wide or less
 @media screen and (max-width: 600px) {
   .container {
     width: 100%;
   }
-}
+} */
 .card:hover{
     box-shadow: 0.8px 16px 0 rgba(0,0,0,0.2);
 }
@@ -75,12 +75,12 @@ h, p{
   }
 }
 
-/* On screens that are 600px wide or less */
+/* On screens that are 600px wide or less
 @media screen and (max-width: 600px) {
   .card {
     width: 100%;
   }
-}
+} */
 .card:hover{
     box-shadow: 0.8px 16px 0 rgba(0,0,0,0.2);
 }
