@@ -29,6 +29,22 @@ h, p{
     /* justify-content: center; */
     align-items: center;
 }
+/* On screens that are 992px wide or less */
+@media screen and (max-width: 992px) {
+  .container {
+    width: 100%;
+  }
+}
+
+/* On screens that are 600px wide or less */
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+}
+.card:hover{
+    box-shadow: 0.8px 16px 0 rgba(0,0,0,0.2);
+}
 .sociallinks{
 	height: 100px;
 	width: 100px;
