@@ -10,7 +10,6 @@ body{
     align-items: center;
     /* min-height: 100% */
     background-image: url(https://github.com/yangaxnkohla/yangaxnkohla.github.io/blob/master/images/lambda_anga.PNG?raw=true);
-    background-color: #800080;
 }
 /* On screens that are 992px wide or less*/
 @media screen and (max-width: 992px) {
@@ -26,7 +25,10 @@ body{
     width: 100%;
   }
 }*/
-h, p{
+h{
+	font-family: 'Cuprum';
+}
+p{
 	font-family: 'Cuprum';
 }
 .container{
