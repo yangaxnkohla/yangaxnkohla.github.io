@@ -15,18 +15,18 @@ body{
   body {
     height: 100%;  
 } 
-/* On screens that are 992px wide or less 
+/* On screens that are 992px wide or less */
 @media screen and (max-width: 992px) {
   body {
     width: 100%;  
-} */
-
-/* On screens that are 600px wide or less 
+} 
+/* On screens that are 600px wide or less */
 @media screen and (max-width: 600px) {
   body {
     width: 100%;
   }
-}*/
+}
+
 h1,h2{
 	font-family: 'Cuprum';
 }
@@ -40,12 +40,12 @@ p{
     /* justify-content: center; */
     align-items: center;
 }
-/* On screens that are 992px wide or less
+/* On screens that are 992px wide or less */
 @media screen and (max-width: 992px) {
   .container {
     width: 100%;
   }
-} */
+} 
 
 /* On screens that are 600px wide or less
 @media screen and (max-width: 600px) {
