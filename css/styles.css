@@ -11,11 +11,11 @@ body{
     background-size:100%
     background-image: url(https://github.com/yangaxnkohla/yangaxnkohla.github.io/blob/master/images/lambda_anga.PNG?raw=true);
 }
-/* On screens that are 992px wide or less */
+/* On screens that are 992px wide or less 
 @media screen and (max-width: 992px) {
   body {
     width: 100%;  
-} 
+} */
 
 /* On screens that are 600px wide or less 
 @media screen and (max-width: 600px) {
