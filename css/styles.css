@@ -15,12 +15,12 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-@media screen and (max-height: 1366px) {
+@media screen and (max-height: 1367px) {
   body {
     height: 100%;  
 } 
 /* On screens that are 992px wide or less */
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 1367px) {
   body {
     width: 100%;  
 } 
