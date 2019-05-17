@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Cuprum');
 @charset "utf-8";
 
+html{
+	width: 100%;
+}
+
 body{
 	display: flex;
     flex-direction: column;
