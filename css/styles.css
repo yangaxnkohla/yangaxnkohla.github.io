@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Cuprum');
 @charset "utf-8";
 html{
+	background: url(https://github.com/yangaxnkohla/yangaxnkohla.github.io/blob/master/images/lambda_anga.PNG?raw=true);
+
 }
 body{
 	display: flex;
@@ -22,7 +24,7 @@ body{
     width: 100%;
   }
 }*/
-h1{
+h1,h2{
 	font-family: 'Cuprum';
 }
 p{
