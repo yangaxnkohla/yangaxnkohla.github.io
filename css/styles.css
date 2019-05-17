@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Cuprum');
 @charset "utf-8";
 html{
-	background: url(https://github.com/yangaxnkohla/yangaxnkohla.github.io/blob/master/images/lambda_anga.PNG?raw=true);
-
+	background: url(https://github.com/yangaxnkohla/yangaxnkohla.github.io/blob/master/images/lambda_anga.PNG?raw=true) center no-repeat;
 }
 body{
 	display: flex;
@@ -10,7 +9,7 @@ body{
 	justify-content: center;
     align-items: center;
     background-size:100%
-    background: url(https://github.com/yangaxnkohla/yangaxnkohla.github.io/blob/master/images/lambda_anga.PNG?raw=true);
+    background: url(https://github.com/yangaxnkohla/yangaxnkohla.github.io/blob/master/images/lambda_anga.PNG?raw=true) center no-repeat;
 }
 /* On screens that are 992px wide or less 
 @media screen and (max-width: 992px) {
