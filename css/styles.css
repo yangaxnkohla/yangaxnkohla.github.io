@@ -8,7 +8,6 @@ body{
     flex-direction: column;
 	justify-content: center;
     align-items: center;
-    min-height: 100% 
     background-size:100%
     background-image: url(https://github.com/yangaxnkohla/yangaxnkohla.github.io/blob/master/images/lambda_anga.PNG?raw=true);
 }
