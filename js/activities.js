@@ -4,7 +4,7 @@ var counter = 0;
 var elem = document.getElementById("activities");
 var inst = setInterval(change, 1000);
 
-function change() {
+window.onload function change() {
   elem.innerHTML = activities[counter];
   counter++;
   if (counter >= activities.length) {
