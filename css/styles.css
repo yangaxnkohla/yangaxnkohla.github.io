@@ -69,6 +69,10 @@ h1,h2, p{
 	margin-left: 20px;
 }
 
+div#welcome-section{
+  padding: 5px;
+}
+
 hr{
 	display: block;
 	position: relative;
