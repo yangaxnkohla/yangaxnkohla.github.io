@@ -25,11 +25,7 @@ body{
     width: 100%;  
 } 
 
-h1,h2{
-	font-family: 'Cuprum';
-}
-
-p{
+h1,h2, p{
 	font-family: 'Cuprum';
 }
 
@@ -88,4 +84,22 @@ hr{
 	border: none;
 	border-top: 1px solid #aaaaaa;
 	border-bottom: 1px solid #fffff;
+}
+
+nav ul {
+  text-align: right;
+  position: fixed;
+  width: 100%;
+  background-color: #e0ebe8;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 55px;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+
+.projectile-tile{
+	
 }
