@@ -5,7 +5,7 @@ var elem = document.getElementById("activities");
 var inst = setInterval(change, 2000);
 
 function change() {
-  elem.innerHTML = "I like to " + activities[counter];
+  elem.innerHTML = activities[counter];
   elem.style.backgroundColor = "#D3D3D3";
   counter++;
   if (counter >= activities.length) {
