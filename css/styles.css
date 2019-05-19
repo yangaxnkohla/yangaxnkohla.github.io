@@ -80,6 +80,11 @@ div#welcome-section{
   padding: 5px;  
 }
 
+.project-tile{
+  width: 250px;
+  height: 250px;
+}
+
 hr{
 	display: block;
 	position: relative;
