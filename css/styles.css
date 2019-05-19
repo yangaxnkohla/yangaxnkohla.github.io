@@ -42,7 +42,7 @@ h1,h2, p{
     border-radius: 5px;
     width: 90%;
     margin-bottom: 4%;
-    padding: 10px; 
+    /*padding: 10px;*/
     position: center;   
 }
 
