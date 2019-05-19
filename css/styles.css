@@ -89,7 +89,7 @@ hr{
 nav{
     display: flex;
     flex-wrap: wrap;
-    background-color:#007bff;
+    background-color: transparent;
     justify-content:space-around;
     align-items: center;
 }
