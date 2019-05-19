@@ -86,27 +86,19 @@ hr{
 	border-bottom: 1px solid #fffff;
 }
 
-nav ul {
-  text-align: right;
-  position: fixed;
-  width: 100%;
-  background-color: transparent;
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#007bff;
+    justify-content:space-around;
+    align-items: center;
 }
-
-nav ul li {
-  display: inline-block;
-  margin: 55px;
-  margin-bottom: 15px;
-  margin-top: 25px;
+nav li{
+    display: inline-block;
+    color: #ffffff;
 }
-
-nav ul li a {
-  color: #008080;
-  text-decoration: none;
-}
-
-nav ul li a:hover {
-  color: green;
+.nav-link{
+    color: #ffffff;
 }
 
 .projectile-tile{
