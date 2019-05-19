@@ -76,7 +76,8 @@ div#welcome-section{
 .profile-photo{
   width: 100px;
   height: 100px;
-  border-radius: 25px;  
+  border-radius: 25px;
+  padding: 5px;  
 }
 
 hr{
