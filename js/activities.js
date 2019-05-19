@@ -1,15 +1,14 @@
 // ${name}'s activities
 var activities = [ "code", "read", "play", "introvert", "otaku" ];
+var counter = 0;
+var elem = document.getElementById("activities");
+var inst = setInterval(change, 1000);
 
-// get <h2 id="activities"> element
-var textElement = document.getElementById('activities');
-
-// get <h2 id="activities"> element inner content
-var innerText = textElement.innerHTML;
-
-// set <h2 id="activities"> element inner content
-while (true){
-	for(var i = 0;i<activities.length;i++){
-		textElement.innerHTML = "and I like to "+activities[i];
-	}
+function change() {
+  elem.innerHTML = text[counter];
+  counter++;
+  if (counter >= text.length) {
+    counter = 0;
+    // clearInterval(inst); // uncomment this if you want to stop refreshing after one cycle
+  }
 }
