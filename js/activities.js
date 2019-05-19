@@ -1,5 +1,5 @@
 // ${name}'s activities
-var activities = [ "code", "read", "play", "introvert", "otaku" ];
+var activities = [ "code", "read", "play", "introvert", "otaku", "google things", "drink coffee", "nap" ];
 var counter = 0;
 var elem = document.getElementById("activities");
 var inst = setInterval(change, 2000);
