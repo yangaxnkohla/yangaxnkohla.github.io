@@ -90,7 +90,7 @@ nav ul {
   text-align: right;
   position: fixed;
   width: 100%;
-  background-color: #e0ebe8;
+  background-color: transparent;
 }
 
 nav ul li {
