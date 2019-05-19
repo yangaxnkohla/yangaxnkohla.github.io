@@ -2,10 +2,11 @@
 var activities = [ "code", "read", "play", "introvert", "otaku" ];
 var counter = 0;
 var elem = document.getElementById("activities");
-var inst = setInterval(change, 1000);
+var inst = setInterval(change, 2000);
 
 function change() {
-  elem.innerHTML = activities[counter];
+  elem.innerHTML = "I like to " + activities[counter];
+  elem.style.backgroundColor = "#D3D3D3";
   counter++;
   if (counter >= activities.length) {
     counter = 0;
