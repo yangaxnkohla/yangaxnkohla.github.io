@@ -91,7 +91,7 @@ nav{
     flex-wrap: wrap;
     background-color: transparent;
     justify-content:space-around;
-    align-items: center;
+    align-items: right;
     margin: 0px;
 }
 nav li{
