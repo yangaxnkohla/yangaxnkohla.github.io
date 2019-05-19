@@ -73,6 +73,12 @@ div#welcome-section{
   padding: 5px;
 }
 
+.profile-photo{
+  width: 100px;
+  height: 100px;
+  border-radius: 25px;  
+}
+
 hr{
 	display: block;
 	position: relative;
