@@ -95,10 +95,11 @@ nav{
 }
 nav li{
     display: inline-block;
-    color: #ffffff;
+    padding: 5px;
+    color: #000000;
 }
 .nav-link{
-    color: #ffffff;
+    color: #000000;
 }
 
 .projectile-tile{
