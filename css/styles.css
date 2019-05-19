@@ -92,6 +92,7 @@ nav{
     background-color: transparent;
     justify-content:space-around;
     align-items: center;
+    margin: 0px;
 }
 nav li{
     display: inline-block;
