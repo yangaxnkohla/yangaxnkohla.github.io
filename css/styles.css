@@ -75,6 +75,7 @@ div#welcome-section{
   position: flex-start;
   padding: 5px;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .profile-photo{
