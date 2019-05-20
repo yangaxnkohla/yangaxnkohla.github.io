@@ -71,9 +71,10 @@ h1,h2, p{
 }
 
 div#welcome-section{
-  display: flex;
-  position: start;
+  display: inline-flex;
+  position: flex-start;
   padding: 5px;
+  flex-wrap: wrap;
 }
 
 .profile-photo{
