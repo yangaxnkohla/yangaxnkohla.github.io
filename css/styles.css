@@ -14,6 +14,7 @@ body{
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 60%;
 }
 /* On screens that are 1367px wide or less */
 @media screen and (max-height: 1367px) {
