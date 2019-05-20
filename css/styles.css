@@ -113,6 +113,9 @@ nav{
   justify-content:space-around;
   align-items: right;
   margin: 0px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 nav li{
   display: inline-block;
