@@ -7,13 +7,13 @@ html{
 
 body{
 	display: flex;
-    flex-direction: column;
+  flex-direction: column;
 	justify-content: center;
-    align-items: center;
-    background: url('https://github.com/yangaxnkohla/yangaxnkohla.github.io/blob/master/images/lambda_anga.PNG?raw=true');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
+  align-items: center;
+  background: url('https://github.com/yangaxnkohla/yangaxnkohla.github.io/blob/master/images/lambda_anga.PNG?raw=true');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /* On screens that are 1367px wide or less */
 @media screen and (max-height: 1367px) {
@@ -31,23 +31,23 @@ h1,h2, p{
 
 .container{
 	padding: 2px 16px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .card{
-    box-shadow: 0.4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    border-radius: 5px;
-    width: 90%;
-    margin-bottom: 4%;
+  box-shadow: 0.4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  width: 90%;
+  margin-bottom: 4%;
     /*padding: 10px;*/
-    position: center;   
+  position: center;   
 }
 
 .card:hover{
-    box-shadow: 0.8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0.8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .sociallinks{
@@ -103,20 +103,20 @@ hr{
 }
 
 nav{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: transparent;
-    justify-content:space-around;
-    align-items: right;
-    margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: transparent;
+  justify-content:space-around;
+  align-items: right;
+  margin: 0px;
 }
 nav li{
-    display: inline-block;
-    padding: 5px;
-    color: #000000;
+  display: inline-block;
+  padding: 5px;
+  color: #000000;
 }
 .nav-link{
-    color: #000000;
+  color: #000000;
 }
 
 .projectile-tile{
