@@ -142,6 +142,8 @@ figure {
     display: inline-block;
     border: 1px dotted gray;
     margin: 20px; /* adjust as needed */
+    width: auto;
+    height: auto;
 }
 
 figure img {
