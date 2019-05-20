@@ -10,17 +10,18 @@ body{
   flex-direction: column;
 	justify-content: center;
   align-items: center;
+  align-self: center;
   background: url('https://github.com/yangaxnkohla/yangaxnkohla.github.io/blob/master/images/lambda_anga.PNG?raw=true');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   width: 60%;
 }
-/* On screens that are 1367px wide or less */
+/* On screens that are 1367px wide or less
 @media screen and (max-height: 1367px) {
   body {
     height: 100%;  
-}
+}  */
 @media screen and (max-width: 1367px) {
   body {
     width: 80%;  
