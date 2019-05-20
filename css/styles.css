@@ -83,6 +83,11 @@ div#welcome-section{
   padding: 5px;  
 }
 
+.projects{
+  display: flex;
+  flex-direction: row;
+}
+
 .project-tile{
   width: 250px;
   height: 250px;
