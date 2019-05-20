@@ -39,10 +39,10 @@ h1,h2, p{
   align-self: center;
   width: 60%
 }
-/*@media screen and (max-width: 1367px) {
+@media screen and (max-width: 1367px) {
   .container {
     width: 100%;  
-}*/
+}
 
 .card{
   box-shadow: 0.4px 8px 0 rgba(0,0,0,0.2);
@@ -124,6 +124,11 @@ nav{
   width: 60%;
   z-index: 500;
 }
+@media screen and (max-width: 1367px) {
+  nav {
+    width: 100%;  
+}
+
 nav li{
   display: inline-block;
   padding: 5px;
