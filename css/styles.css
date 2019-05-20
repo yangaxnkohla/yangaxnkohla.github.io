@@ -43,7 +43,8 @@ h1,h2, p{
   width: 90%;
   margin-bottom: 4%;
     /*padding: 10px;*/
-  position: center;   
+  position: center;  
+  align-items: right; 
 }
 
 .card:hover{
