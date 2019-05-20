@@ -70,6 +70,7 @@ h1,h2, p{
 }
 
 div#welcome-section{
+  display: flex;
   position: start;
   padding: 5px;
 }
