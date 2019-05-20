@@ -67,14 +67,14 @@ h1,h2, p{
 	align-items: center;
 }
 
-.stacksection{
+.stacksection, div#projects{
 	margin-left: 20px;
 }
 
 div#welcome-section, div#projects{
   display: inline-flex;
   position: flex-start;
-  padding: 5px;
+  padding: 10px;
   flex-wrap: wrap;
   align-items: center;
 }
