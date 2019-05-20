@@ -110,7 +110,8 @@ hr{
 nav{
   display: flex;
   flex-wrap: wrap;
-  background-color: transparent;
+  overflow: hidden;
+  background-color: #000;
   justify-content:space-around;
   align-items: right;
   margin: 0px;
