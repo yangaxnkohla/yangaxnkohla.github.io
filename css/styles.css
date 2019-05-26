@@ -134,7 +134,7 @@ nav{
   display: flex;
   flex-wrap: wrap;
   overflow: hidden;
-  background-color: #fff;
+  background-color: transparent;
   justify-content:space-around;
   align-items: right;
   position: fixed;
