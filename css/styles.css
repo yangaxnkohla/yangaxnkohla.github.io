@@ -79,12 +79,16 @@ h1,h2, p{
 	/*margin-left: 20px;*/
 }
 
-div#welcome-section, div#projects{
+div#welcome-section{
   display: inline-flex;
   position: flex-start;
   padding: 10px;
   flex-wrap: wrap;
   align-items: center;
+}
+
+div#projects{
+  
 }
 
 .profile-photo{
