@@ -15,19 +15,20 @@ body{
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
 }
 /* On screens that are 1367px wide or less */
-@media screen and (max-width: 1367px) {
+/*@media screen and (max-width: 1367px) {
   body {
-    width: 80%;
+    width: 100%;
   }  
 } 
-/* On screens that are 1368px wide or more */
+ On screens that are 1368px wide or more 
 @media screen and (min-width: 1368px) {
   body {
     width: 50%;  
   }
-} 
+} */
 
 h1,h2, p{
 	font-family: 'Cuprum';
@@ -44,7 +45,12 @@ h1,h2, p{
 }
 @media screen and (max-width: 1367px) {
   .container {
-    width: 100%;  
+    width: 80%;  
+  }
+}
+@media screen and (min-width: 1368px) {
+  .container {
+    width: 40%;  
   }
 }
 
