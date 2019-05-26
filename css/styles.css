@@ -76,7 +76,7 @@ h1,h2, p{
 }
 
 .stacksection, div#projects{
-	margin-left: 20px;
+	/*margin-left: 20px;*/
 }
 
 div#welcome-section, div#projects{
@@ -145,6 +145,7 @@ figure {
     /*margin: 20px;*/ /* adjust as needed */
     width: auto;
     height: auto;
+    padding: 5px;
 }
 
 figure img {
@@ -154,4 +155,5 @@ figure img {
 figure figcaption {
     border: 1px solid black;
     text-align: center;
+    border-radius: 15%;
 }
