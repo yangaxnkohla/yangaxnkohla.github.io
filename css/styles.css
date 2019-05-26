@@ -19,13 +19,13 @@ body{
 /* On screens that are 1367px wide or less */
 @media screen and (max-width: 1367px) {
   body {
-    width: 100%;
+    width: 80%;
   }  
 } 
 /* On screens that are 1368px wide or more */
 @media screen and (min-width: 1368px) {
   body {
-    width: 60%;  
+    width: 50%;  
   }
 } 
 
