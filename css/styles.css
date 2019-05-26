@@ -82,7 +82,7 @@ h1,h2, p{
 div#welcome-section, div#projects{
   display: inline-flex;
   position: flex-start;
-  padding: 20px;
+  padding: 10px;
   flex-wrap: wrap;
   align-items: center;
 }
@@ -153,7 +153,7 @@ figure img {
 }
 
 figure figcaption {
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     text-align: center;
-    border-radius: 15%;
+    /*border-radius: 15%;*/
 }
