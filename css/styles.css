@@ -81,6 +81,7 @@ h1,h2, p{
 	padding: 10px;
 	border-radius: 15%;
 	align-items: center;
+  background-color: white;
 }
 
 .stacksection, div#projects{
@@ -125,7 +126,7 @@ hr{
 	clear: both;
 	border: none;
 	border-top: 1px solid #aaaaaa;
-	border-bottom: 1px solid #fffff;
+	border-bottom: 1px solid red;
 }
 
 nav{
@@ -152,12 +153,13 @@ nav li{
 
 figure {
     display: inline-block;
-    border: 1px solid black;
+    border: 1px solid red;
     border-radius: 15%;
     /*margin: 20px;*/ /* adjust as needed */
     width: auto;
     height: auto;
     padding: 5px;
+    background-color: white;
 }
 
 figure img {
@@ -167,5 +169,6 @@ figure img {
 figure figcaption {
     /*border: 1px solid black;*/
     text-align: center;
+    color: green;
     /*border-radius: 15%;*/
 }
