@@ -107,6 +107,10 @@ div#welcome-section{
   padding-top: 45vh;
   align-items: center;
   background: url('https://github.com/yangaxnkohla/yangaxnkohla.github.io/blob/master/images/hacker.jpg?raw=true');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
 }
 
 div#projects{
