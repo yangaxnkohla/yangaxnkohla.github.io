@@ -38,7 +38,7 @@ body{
 
 h1,h2, p{
   font-family: 'Cuprum';
-  color: white;
+  color: green;
 }
 
 .container{
@@ -109,6 +109,7 @@ div#welcome-section{
   min-height: 55vh;
   padding-top: 45vh;
   align-items: center;
+  text-align: center;
   background: url('https://github.com/yangaxnkohla/yangaxnkohla.github.io/blob/master/images/hacker.jpg?raw=true');
   background-attachment: fixed;
   background-repeat: no-repeat;
