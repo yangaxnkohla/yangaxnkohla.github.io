@@ -83,8 +83,8 @@ h1,h2, p{
 }
 @media(max-width: 640px) {
   .techstack {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
   }
 }
 
@@ -139,8 +139,8 @@ div#welcome-section{
 }
 @media(max-width: 640px) {
   .project-tile {
-    width: 85px;
-    height: 85px;
+    width: 82px;
+    height: 82px;
   }
 }
 
@@ -165,7 +165,7 @@ nav {
   /* border: 2px solid #506BB1; */
   margin: auto; 
   margin-top:10px;
-  width: 900px;
+  width: 100%;
   align-items: center;
 }
 @media(max-width: 640px) {
@@ -211,6 +211,7 @@ nav a {
 @media(max-width: 640px) {
   nav a {
     font-size: 0.7em;
+    padding: 10px 1px 1px 1px;
   }
 }
 
