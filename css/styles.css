@@ -13,6 +13,11 @@ h1,h2, p{
   font-family: 'Cuprum';
   color: green;
 }
+@media(max-width: 640px) {
+  h1,h2, p {
+    font-size: 1.2em;
+  }
+}
 
 .container{
   padding: 16px;
@@ -34,7 +39,7 @@ h1,h2, p{
 }
 @media(max-width: 640px) {
   .container {
-    width: 90%;  
+    width: 100%;  
   }
 }
 
@@ -59,6 +64,12 @@ h1,h2, p{
   border-radius: 15%; 
   background-color: white;  
 }
+@media(max-width: 640px) {
+  .sociallinks {
+    width: 80px;
+    height: 80px;
+  }
+}
 
 .techstack{
   height: 100px;
@@ -68,6 +79,12 @@ h1,h2, p{
   background-color: white;
   align-self: center;
   align-items: center;
+}
+@media(max-width: 640px) {
+  .techstack {
+    width: 80px;
+    height: 80px;
+  }
 }
 
 .stacksection, div#projects{
@@ -87,6 +104,11 @@ div#welcome-section{
   background-size: cover;
   width: 100%;
 }
+@media(max-width: 640px) {
+  div#welcome-section {
+    min-height: 40vh;
+  }
+}
 
 .profile-photo{
   width: 100px;
@@ -95,11 +117,23 @@ div#welcome-section{
   padding: 5px;  
   align-self: center;
 }
+@media(max-width: 640px) {
+  .profile-photo {
+    width: 80px;
+    height: 80px;
+  }
+}
 
 .project-tile{
   width: 250px;
   height: 250px;
   padding: 10px;
+}
+@media(max-width: 640px) {
+  .project-tile {
+    width: 80px;
+    height: 80px;
+  }
 }
 
 hr{
@@ -168,13 +202,14 @@ nav a {
 }
 @media(max-width: 640px) {
   nav a {
-    font-size: 0.7em;
+    font-size: 0.8em;
   }
 }
+
 nav a:hover {
   color:lime;
 }
-/*THE NEXT TWO STATEMENTS ARE INCLUDED READY FOR THE NEXT STAGE*/
+
 #active { 
   border-bottom: none; 
   color:navy; 
