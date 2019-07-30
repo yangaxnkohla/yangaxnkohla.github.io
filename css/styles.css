@@ -162,7 +162,6 @@ hr{
 
 nav { 
   height:37px; 
-  /* border: 2px solid #506BB1; */
   margin: auto; 
   margin-top:10px;
   width: 100%;
@@ -182,6 +181,11 @@ nav ul {
   nav ul {
     width: 100%;
     margin-left: 0%;
+  }
+}
+@media(min-width: 1366px) {
+  nav ul {
+    margin-left:400px;
   }
 }
 
