@@ -188,7 +188,7 @@ nav ul {
     margin-left:400px;
   }
 }
-@media(min-width: 1920px) {
+@media(min-width: 1367px){
   nav ul {
     margin-left:800px;
   }
