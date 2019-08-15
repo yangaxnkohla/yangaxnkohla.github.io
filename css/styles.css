@@ -183,9 +183,14 @@ nav ul {
     margin-left: 0%;
   }
 }
-@media(min-width: 1366px) {
+@media(max-width: 1366px) {
   nav ul {
     margin-left:400px;
+  }
+}
+@media(min-width: 1920px) {
+  nav ul {
+    margin-left:800px;
   }
 }
 
