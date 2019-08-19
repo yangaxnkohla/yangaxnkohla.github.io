@@ -185,7 +185,7 @@ nav ul {
 }
 @media(max-width: 1366px) {
   nav ul {
-    margin-left:400px;
+    margin-left:0%;
   }
 }
 /* @media(min-width: 1500px) and (max-width: 1920px){
