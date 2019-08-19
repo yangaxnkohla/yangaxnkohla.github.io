@@ -99,7 +99,7 @@ div#welcome-section{
   padding-top: 45vh;
   align-items: center;
   text-align: center;
-  background: url('https://avatars3.githubusercontent.com/u/38688053?s=460&v=4');
+  background: url('https://github.com/yangaxnkohla/yangaxnkohla.github.io/blob/master/images/profile-photo.PNG?raw=true');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -188,7 +188,7 @@ nav ul {
     margin-left:400px;
   }
 }
-@media(min-width: 1080px) and (max-width: 1920px){
+@media(min-width: 1500px) and (max-width: 1920px){
   nav ul {
     margin-left:600px;
   }
