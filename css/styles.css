@@ -175,9 +175,10 @@ nav {
 }
 
 nav ul {
-  margin-left:140px;
+  margin-left:40%;
+  margin-right:40%;
 }
-@media(max-width: 640px) {
+/* @media(max-width: 640px) {
   nav ul {
     width: 100%;
     margin-left: 0%;
@@ -187,7 +188,7 @@ nav ul {
   nav ul {
     margin-left:0%;
   }
-}
+} */
 /* @media(min-width: 1500px) and (max-width: 1920px){
   nav ul {
     margin-left:600px;
