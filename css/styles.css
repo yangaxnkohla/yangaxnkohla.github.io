@@ -183,7 +183,7 @@ nav ul {
     margin-left: 0%;
   }
 }
-@media(max-width: 1366px) {
+@media(min-width: 1366px) {
   nav ul {
     margin-left:0%;
   }
