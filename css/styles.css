@@ -178,6 +178,12 @@ nav ul {
   margin-left:25%;
   margin-right:25%;
 }
+@media(max-width: 1366px) {
+  nav ul {
+    margin-left:5%;
+    margin-right:5%;
+  }
+} 
 @media(max-width: 640px) {
   nav ul {
     width: 100%;
@@ -185,12 +191,7 @@ nav ul {
     margin-right:0%;
   }
 }
-@media(max-width: 1366px) {
-  nav ul {
-    margin-left:5%;
-    margin-right:5%;
-  }
-} 
+
 /* @media(max-width: 640px) {
   nav ul {
     width: 100%;
