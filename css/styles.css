@@ -59,27 +59,32 @@ h1,h2, p{
 }
 
 .sociallinks{
-  height: 100px;
-  width: 100px;
-  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 35px;
+  width: 35px;
+  margin: 3px;
   border-radius: 15%; 
   background-color: white;  
 }
 @media(max-width: 640px) {
   .sociallinks {
-    width: 80px;
-    height: 80px;
+    height: 35px;
+    width: 35px;
   }
 }
 
 .techstack{
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-around; */
   height: 100px;
   width: 100px;
   padding: 10px;
+  margin: 3px;
   border-radius: 15%;
   background-color: white;
-  align-self: center;
-  align-items: center;
 }
 @media(max-width: 640px) {
   .techstack {
@@ -91,6 +96,7 @@ h1,h2, p{
 .stacksection, div#projects{
   align-self: center;
   align-items: center;
+  width: 100%;
 }
 
 div#welcome-section{
@@ -99,7 +105,7 @@ div#welcome-section{
   padding-top: 45vh;
   align-items: center;
   text-align: center;
-  background: url('https://github.com/yangaxnkohla/yangaxnkohla.github.io/blob/master/images/lambda_anga.PNG?raw=true');
+  background: url('../images/profile-photo.PNG');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -108,7 +114,7 @@ div#welcome-section{
 }
 @media(max-width: 640px) {
   div#welcome-section {
-    min-height: 40vh;
+    min-height: 20vh;
   }
 }
 
@@ -144,6 +150,31 @@ div#welcome-section{
   }
 }
 
+#projects {
+  width: 100%;
+}
+
+#contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+#figures {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#languages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
 hr{
   display: block;
   position: relative;
@@ -160,90 +191,49 @@ hr{
   border-bottom: 1px solid black;
 }
 
-nav { 
-  height:37px; 
-  margin: auto; 
-  margin-top:10px;
-  width: 100%;
-  align-items: center;
+nav {
+  padding: 20px 0;
+  min-width: 500px; 
 }
 @media(max-width: 640px) {
   nav {
-    width: 100%;
-    margin-left: 0%;
+    padding: 20px 0;
+    min-width: 200px; 
   }
 }
 
 nav ul {
-  margin-left:25%;
-  margin-right:25%;
+  background: linear-gradient(90deg, 
+    rgba(255, 255, 255, 0) 0%, 
+    rgba(255, 255, 255, 0.2) 25%, 
+    rgba(255, 255, 255, 0.2) 75%, 
+    rgba(255, 255, 255, 0) 100%);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
+    inset 0 0 1px rgba(255, 255, 255, 0.6);
 }
-@media(max-width: 1366px) {
-  nav ul {
-    margin-left:5%;
-    margin-right:5%;
-  }
-} 
-@media(max-width: 640px) {
-  nav ul {
-    width: 100%;
-    margin-left:0%;
-    margin-right:0%;
-  }
+nav ul li {
+  display: inline-block;
 }
-
-/* @media(max-width: 640px) {
-  nav ul {
-    width: 100%;
-    margin-left: 0%;
-  }
-}
-
-/* @media(min-width: 1500px) and (max-width: 1920px){
-  nav ul {
-    margin-left:600px;
-  }
-} */
-
-nav li {
-  border-bottom: 2px solid #506BB1;
-  border-radius: 25px; 
-  list-style: none; 
-  float: left; 
-  background: rebeccapurple url(images/right_side.png) no-repeat right top; 
-  margin-right: 5px; 
-  margin-bottom: 5px; 
-  height: 37px;
-}
-
-nav a { 
-  display: block; 
-  padding: 3px; 
-  background-image: url(images/left_side.png); 
-  background-repeat: no-repeat;
-  background-position: left top; 
-  text-align: center; 
-  text-decoration: none; 
-  color: #FFF; 
-  font-weight: bold; 
-  font-size: 1.2em;
+nav ul li a {
+  padding: 10px; 
+  color: #FFFFFF;
+  font-size: 18px;
+  font-family: Arial;
+  text-decoration: none;
+  display: block;
 }
 @media(max-width: 640px) {
-  nav a {
-    font-size: 0.7em;
-    padding: 10px 1px 1px 1px;
+  nav ul li a {
+    /* font-size: 1.2em; */
+    font-size: 7px;
   }
-}
-
-nav a:hover {
-  color:lime;
 }
 
 #active { 
   border-bottom: none; 
-  color:navy; 
+  color:lime;
   list-style: none; 
-  float: left; 
+  float: right; 
   background: #FFF url(images/right_side-pale.png); 
   background-repeat:no-repeat; 
   background-position: right top; 
@@ -259,12 +249,16 @@ nav a:hover {
   background-position: left top; 
   text-align: center; 
   text-decoration: none; 
-  color: navy; 
+  color: lime; 
   font-weight: bold; 
   font-size: 1.2em; 
   text-transform: uppercase; 
   height: 28px;
 }
+nav a:hover {
+  color:lime;
+}
+
 #content { 
   width:900px; 
   border: 2px navy solid; 
@@ -272,18 +266,18 @@ nav a:hover {
   border-top:0;
 }
 
-figure {
-    display: inline-block;
-    border: 1px solid black;
-    border-radius: 5%;
-    width: auto;
-    height: auto;
-    padding: 5px;
-    background-color: white;
+figure { 
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 5%;
+  width: auto;
+  height: auto;
+  padding: 5px;
+  background-color: white;
 }
 
-figure img {
-    vertical-align: top;
+figure img {  
+  vertical-align: top;
 }
 
 figure figcaption {

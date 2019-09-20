@@ -1,102 +1,155 @@
 <!doctype html>
 <html lang="en-US" xmlns:th="http://www.thymeleaf.org">
+
 <head>
 
-<meta charset="utf-8"></meta>
-<meta http-equiv="Content-Type" content="text/html"></meta>
-<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+	<meta charset="utf-8"></meta>
+	<meta http-equiv="Content-Type" content="text/html"></meta>
+	<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
 
-<link rel="icon" href="images/icon.png" type="image/gif" sizes="20x20">
-<title>Yanga Nkohla</title>
+	<link rel="icon" href="images/icon.png" type="image/gif" sizes="20x20">
+	<title>Yanga Nkohla</title>
 
-<!-- START CSS -->
-<link rel="stylesheet" type="text/css" media="all"
-	href="css/bootstrap.min.css"></link>
-<link rel="stylesheet" type="text/css" media="all"
-	href="css/styles.css"></link>
-<!-- END CSS -->
+	<!-- START CSS -->
+	<link rel="stylesheet" type="text/css" media="all" href="css/bootstrap.min.css"></link>
+	<link rel="stylesheet" type="text/css" media="all" href="css/styles.css"></link>
+	<!-- END CSS -->
 
-<!-- START JQUERY -->
-<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-<!-- END JQUERY -->
+	<!-- START JQUERY -->
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<!-- END JQUERY -->
 
 </head>
 
 <body>
 	<!-- START NAVBAR -->
-	<nav>
-  		<ul id="navbar">
-    		<li><a href="#welcome-section"><b>$ git About_</b></a></li>
-			<li><a href="#projects"><b>$ git Work_</b></a></li>
-			<li><a href="#techstack"><b>$ git Tech_</b></a></li>
-    		<li><a href="#contact"><b>$ git Contact_</b></a></li>
-  		</ul>
-	</nav>
+
 	<!-- END NAVBAR -->
 	<div class="container card">
-	    <!-- START WELCOME SECTION -->
-		<div id = "welcome-section">
-			<h1><span style="color: white;">Hi, I am Yanga Nkohla and I like to</span> <span id="activities" style="background-color: rebeccapurple;color:white; border-radius: 25px; padding: 5px;"></span></h1>		
+		<!-- START WELCOME SECTION -->
+		<nav>
+			<ul id="navbar">
+				<li>
+					<a href="#welcome-section">
+						<b>$ git About_</b>
+					</a>
+				</li>
+				<li>
+					<a href="#projects">
+						<b>$ git Work_</b>
+					</a>
+				</li>
+				<li>
+					<a href="#techstack">
+						<b>$ git Tech_</b>
+					</a>
+				</li>
+				<li>
+					<a href="#contact">
+						<b>$ git Contact_</b>
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<div id="welcome-section">
+			<h1>
+				<span style="color: white;">Hi, I am Yanga Nkohla and I like to</span>
+				<span id="activities" style="background-color: rebeccapurple;color:white; border-radius: 25px; padding: 5px;"></span>
+			</h1>
 		</div>
 		<!-- END WELCOME SECTION -->
 		<hr>
 		<!-- START TECH -->
 		<div class="stacksection" id="techstack">
-			<h2>I dabble with:</h2>
-			<a><img class="techstack" src="images/java.jpeg" alt="Java" /></a>
-			<a><img class="techstack" src="images/android.png" alt="Android" /></a>
-			<a><img class="techstack" src="images/html.png" alt="HTML" /></a>
-			<a><img class="techstack" src="images/css.png" alt="CSS" /></a>
-			<a><img class="techstack" src="images/bootstrap.png" alt="Bootstrap" /></a>
-			<a><img class="techstack" src="images/git.png" alt="Git" /></a>
-			<a><img class="techstack" src="images/gradle.png" alt="Gradle" /></a>
-			<a><img class="techstack" src="images/intellij.jpeg" alt="IntelliJ" /></a>
-			<!-- <a><img class="techstack" src="images/netbeans.png" alt="Netbeans" /></a>
-			<a><img class="techstack" src="images/sts.jpeg" alt="Spring Tool Suite" /></a>
-			<a><img class="techstack" src="images/tomcat.png" alt="Apache Tomcat" /></a>
-			<a><img class="techstack" src="images/jenkins.png" alt="Jenkins" /></a>
-			<a><img class="techstack" src="images/javascript.png" alt="JavaScript" /></a>
-			<a><img class="techstack" src="images/golang.png" alt="GoLang" /></a> -->
-			<h2>...and more.</h2>
+			<div>
+				<h2>I dabble with:</h2>
+			</div>
+			<div id = "languages">
+				<a>
+					<img class="techstack" src="images/java.jpeg" alt="Java" />
+				</a>
+				<a>
+					<img class="techstack" src="images/android.png" alt="Android" />
+				</a>
+				<a>
+					<img class="techstack" src="images/html.png" alt="HTML" />
+				</a>
+				<a>
+					<img class="techstack" src="images/css.png" alt="CSS" />
+				</a>
+				<a>
+					<img class="techstack" src="images/bootstrap.png" alt="Bootstrap" />
+				</a>
+				<a>
+					<img class="techstack" src="images/git.png" alt="Git" />
+				</a>
+				<a>
+					<img class="techstack" src="images/gradle.png" alt="Gradle" />
+				</a>
+				<a>
+					<img class="techstack" src="images/intellij.jpeg" alt="IntelliJ" />
+				</a>
+				<!-- <a><img class="techstack" src="images/netbeans.png" alt="Netbeans" /></a>
+						<a><img class="techstack" src="images/sts.jpeg" alt="Spring Tool Suite" /></a>
+						<a><img class="techstack" src="images/tomcat.png" alt="Apache Tomcat" /></a>
+						<a><img class="techstack" src="images/jenkins.png" alt="Jenkins" /></a>
+						<a><img class="techstack" src="images/javascript.png" alt="JavaScript" /></a>
+						<a><img class="techstack" src="images/golang.png" alt="GoLang" /></a> -->
+			</div>
+			<div>
+				<h2>...and more.</h2>
+			</div>
 		</div>
 		<!-- END TECH -->
 		<hr>
 		<!-- START PROJECTS SECTION -->
 		<div id="projects">
-		<h2>Here are some things I have done:</h2>
-			<figure>
-				<a href="https://play.google.com/store/apps/details?id=com.nkohla.yanga.primer"><img class="project-tile"
-				src="images/primer.png" alt="PRIMER" /></a>
-				<figcaption>PRIMER</figcaption>
-			</figure>
-			<figure>
-				<a href="https://codepen.io/yangaxnkohla"><img class="project-tile" 
-				src="images/codepen.png" alt="CodePen Projects" /></a>
-				<figcaption>CodePen</figcaption>
-			</figure>
-			<figure>
-				<a href="https://github.com/yangaxnkohla"><img class="project-tile" 
-				src="images/github.png" alt="GitHub Projects" /></a>
-				<figcaption>GitHub</figcaption>
-			</figure>			
+			<div>
+				<h2>Here are some things I have done:</h2>
+			</div>
+			<div id="figures">
+				<figure>
+					<a href="https://play.google.com/store/apps/details?id=com.nkohla.yanga.primer">
+						<img class="project-tile" src="images/primer.png" alt="PRIMER" />
+					</a>
+					<figcaption>PRIMER</figcaption>
+				</figure>
+				<figure>
+					<a href="https://codepen.io/yangaxnkohla">
+						<img class="project-tile" src="images/codepen.png" alt="CodePen Projects" />
+					</a>
+					<figcaption>CodePen</figcaption>
+				</figure>
+				<figure>
+					<a href="https://github.com/yangaxnkohla">
+						<img class="project-tile" src="images/github.png" alt="GitHub Projects" />
+					</a>
+					<figcaption>GitHub</figcaption>
+				</figure>
+			</div>
 		</div>
 		<!-- END PROJECTS SECTION -->
 		<hr>
 		<!-- START SOCIAL LINKS -->
 		<div id="contact">
-			<h2>You can find me on:</h2>
-			<a href="https://dev.to/mrconst3llation"><img class="sociallinks"
-				src="images/devto.jpg" alt="dev.to" /></a> <a
-				href="https://www.twitter.com/mrconst3llation"><img
-				class="sociallinks" src="images/twitter.png" alt="twitter.com" /></a>
-			<a href="https://www.linkedin.com/in/yanga-nkohla-b0b51382"><img
-				class="sociallinks" src="images/linkedin.png" alt="linkedin.com" /></a>
-			<a href="https://github.com/yangaxnkohla"><img
-				class="sociallinks" src="images/github.png" alt="github.com" /></a>
-			<a href="https://codepen.io/yangaxnkohla/"><img
-				class="sociallinks" src="images/codepen.png" alt="CodePen" /></a> <a
-				href="https://play.google.com/store/apps/details?id=com.nkohla.yanga.primer"><img
-				class="sociallinks" src="images/playstore.png" alt="PlayStore" /></a>
+			<a href="https://dev.to/mrconst3llation">
+				<img class="sociallinks" src="images/devto.jpg" alt="dev.to" />
+			</a>
+			<a href="https://www.twitter.com/mrconst3llation">
+				<img class="sociallinks" src="images/twitter.png" alt="twitter.com" />
+			</a>
+			<a href="https://www.linkedin.com/in/yanga-nkohla-b0b51382">
+				<img class="sociallinks" src="images/linkedin.png" alt="linkedin.com" />
+			</a>
+			<a href="https://github.com/yangaxnkohla">
+				<img class="sociallinks" src="images/github.png" alt="github.com" />
+			</a>
+			<a href="https://codepen.io/yangaxnkohla/">
+				<img class="sociallinks" src="images/codepen.png" alt="CodePen" />
+			</a>
+			<a href="https://play.google.com/store/apps/details?id=com.nkohla.yanga.primer">
+				<img class="sociallinks" src="images/playstore.png" alt="PlayStore" />
+			</a>
 		</div>
 		<!-- END SOCIAL LINKS -->
 
