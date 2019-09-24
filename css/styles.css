@@ -8,6 +8,11 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media(max-width: 640px) {
+  body {
+    background: url('../images/neurons.jpg');
+  }
+}
 
 h1,h2, p{
   font-family: 'Cuprum';
@@ -17,6 +22,20 @@ h1,h2, p{
   h1,h2, p {
     font-size: 1.2em;
   }
+}
+
+.titles{
+  font-size: 3.2em;
+  text-decoration: underline; 
+}
+@media(max-width: 640px) {
+  .titles {
+    font-size: 1.7em;
+  }
+}
+
+.emoji{
+  font-size: 50px;
 }
 
 .container{
@@ -82,8 +101,8 @@ h1,h2, p{
   /* display: flex;
   flex-direction: row;
   justify-content: space-around; */
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   padding: 10px;
   margin: 10px;
   border-radius: 15%;
@@ -193,22 +212,10 @@ hr{
 
 nav {
   padding: 0px 0;
-  /* min-width: 500px;  */
-  align-content: center;
-  align-items: center;
   text-align: center;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%;
-}
-@media(max-width: 640px) {
-  nav {
-    padding: 0px 0px 0px 0px;
-    /* min-width: 200px;  */
-    align-content: center;
-    align-items: center;
-    width: 100%;
-  }
 }
 
 nav ul {
@@ -225,7 +232,7 @@ nav ul {
 nav ul li {
   display: inline-block;
   align-content: center;
-    align-items: center;
+  align-items: center;
 }
 nav ul li a {
   padding: 10px; 
@@ -235,11 +242,11 @@ nav ul li a {
   text-decoration: none;
   display: block;
   align-content: center;
-    align-items: center;
+  align-items: center;
 }
 @media(max-width: 640px) {
   nav ul li a {
-    font-size: 0.6em;
+    font-size: 0.7em;
     padding: 2px;
     align-content: center;
     align-items: center;
@@ -254,7 +261,7 @@ nav ul li a {
   background: #FFF url(images/right_side-pale.png); 
   background-repeat:no-repeat; 
   background-position: right top; 
-  margin-right: 5px; 
+  /* margin-right: 5px;  */
   height:39px;
 }
 #active a { 
@@ -299,5 +306,5 @@ figure img {
 
 figure figcaption {
     text-align: center;
-    color: lime;
+    color: rgb(0, 0, 0);
 }
