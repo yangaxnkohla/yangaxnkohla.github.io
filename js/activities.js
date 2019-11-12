@@ -1,15 +1,11 @@
-// ${name}'s activities
 var activities = [ 
-  "code", 
-  "read", 
-  "google things", 
-  "drink coffee", 
-  "git add", 
-  "play", 
-  "introvert", 
-  "git push", 
-  "nap", 
-  "git commit" 
+  "code.", 
+  "read.", 
+  "create.",
+  "google things.", 
+  "drink coffee.", 
+  "play.",  
+  "nap."
 ];
 var counter = 0;
 var elem = document.getElementById("activities");
