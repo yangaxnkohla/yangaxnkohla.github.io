@@ -46,22 +46,27 @@ h1,h2, p{
   margin-top:50px;
   margin-bottom: 15px;
   align-self: center;
+  width: 90%;
 }
 @media(min-width: 1367px) {
   .container {
-    width: 90%;  
+    /* width: 75%;   */
   }
 }
 @media(max-width: 1024px) {
   .container {
-    width: 95%;  
+    /* width: 75%;   */
   }
 }
 @media(max-width: 640px) {
   .container {
     margin-top:25px;
-    width: 95%;  
+    /* width: 75%;   */
   }
+}
+
+dliv.container.card{
+  width: 75%;
 }
 
 .card{
@@ -169,6 +174,10 @@ div#welcome-section{
 }
 
 #projects {
+  width: 100%;
+}
+
+#other_interests{
   width: 100%;
 }
 
