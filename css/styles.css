@@ -6,11 +6,17 @@ body{
   background: url('../images/spacex.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;  
 }
 @media(max-width: 640px) {
   body {
     background: url('../images/neurons.jpg');
+  }
+}
+@media(max-width: 1367px) {
+  body {
+    padding-left: 200px;
+    padding-right: 200px;
   }
 }
 
@@ -156,8 +162,8 @@ div#welcome-section{
 }
 
 .project-tile{
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   padding: 10px;
 }
 @media(max-width: 1024px) {
