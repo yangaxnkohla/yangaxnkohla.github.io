@@ -23,12 +23,12 @@ body{
   }
 }
 
-h1,h2, p{
+h1,h2, h3 p{
   font-family: 'Cuprum';
   color: white;
 }
 @media(max-width: 640px) {
-  h1,h2, p {
+  h1,h2,h3 p {
     font-size: 1.2em;
   }
 }
@@ -74,7 +74,7 @@ h1,h2, p{
   }
 }
 
-dliv.container.card{
+div.container.card{
   width: 75%;
 }
 
@@ -343,4 +343,21 @@ figure figcaption {
     width: 100px;
     height: 100px;
   }
+}
+
+.black-span {
+  background-color: rgb(26, 28, 29);
+  color:white; 
+  border-radius: 25px; 
+  padding: 5px; 
+  opacity: 0.8;
+}
+
+.skill-span {
+  background-color: rgb(26, 28, 29);
+  color:white; 
+  border-radius: 25px; 
+  padding: 5px; 
+  margin: 10px;
+  opacity: 0.8;
 }
