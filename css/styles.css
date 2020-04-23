@@ -8,7 +8,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover; 
   padding-left: 200px;
-    padding-right: 200px; 
+  padding-right: 200px; 
 }
 @media(max-width: 640px) {
   body {
@@ -55,7 +55,7 @@ h1,h2, h3 p{
   margin-top:50px;
   margin-bottom: 15px;
   align-self: center;
-  width: 90%;
+  width: 100%;
 }
 @media(min-width: 1367px) {
   .container {
@@ -75,7 +75,7 @@ h1,h2, h3 p{
 }
 
 div.container.card{
-  width: 75%;
+  width: 100%;
 }
 
 .card{
