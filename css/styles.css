@@ -433,3 +433,10 @@ span#cool-s{
   background: black;
 }
 
+
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
