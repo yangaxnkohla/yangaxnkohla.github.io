@@ -20,6 +20,11 @@
 	</link>
 	<!-- END CSS -->
 
+	<!-- START FONT-AWESOME -->
+	<link rel="stylesheet" type="text/css" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</link>
+	<!-- END FONT-AWESOME -->
+
 	<!-- START JQUERY -->
 	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 	<!-- END JQUERY -->
@@ -59,15 +64,22 @@
 			<div>
 				<img class="profile-photo" src="images/icon.png" alt="Profile Photo" />
 			</div>
+			<div style="display: flex; flex-direction: column; align-items: center;"> 
+				<p id="cool-p">Success is getting what you want. Happiness is wanting what you get.</p>
+				<p id="cool-p"> ~
+				  <a id="cool-a" href="https://www.brainyquote.com/authors/dale-carnegie-quotes" title="Azik Samarkandiy">Dale Carnegie</a> 
+				:)<span id="cool-s">|</span></p>
+			</div>
 			<div>
 				<h1 class="titles">&#128511 About</h1>
 			</div>
 			<div>
 				<h2>
 					<span style="color: white;">Hi, I'm Yanga and I like to</span>
-					<span id="activities" class="black-span"></span>
+					<span id="activities" class="black-span  badge"></span>
 				</h2>
 			</div>
+			
 		</div>
 		<!-- END WELCOME SECTION -->
 		<hr>
@@ -81,40 +93,27 @@
 			</div>
 			<!-- <div class="language-container"> -->
 			<div id="languages">
-				<h3><span class="black-span">Java</span></h3>
-				<h3><span class="black-span">Android</span></h3>
-				<h3><span class="black-span">HTML & CSS</span></h3>
-				<h3><span class="black-span">JavaScript</span></h3>
-				<h3><span class="black-span">Flutter</span></h3>
-				<h3><span class="black-span">Clojure</span></h3>
-				<h3><span class="black-span">Maven</span></h3>
-				<h3><span class="black-span">Gradle</span></h3>
-				<h3><span class="black-span">Windows CMD</span></h3>
-				<h3><span class="black-span">Linux Terminal</span></h3>
-				<h3><span class="black-span">Git</span></h3>
-				<h3><span class="black-span">BitBucket</span></h3>
-				<h3><span class="black-span">GitHub</span></h3>
-				<h3><span class="black-span">Jira</span></h3>
-				<h3><span class="black-span">Jenkins</span></h3>
-				<h3><span class="black-span">Selenium</span></h3>
-				<h3><span class="black-span">FT/QTP</span></h3>
-				<h3><span class="black-span">Ranorex</span></h3>
-				<h3><span class="black-span">Cypress</span></h3>
-				<h3><span class="black-span">Robot Framework</span></h3>
-				<h3><span class="black-span">Espresso</span></h3>
-				<!-- <img class="techstack" src="images/java.jpeg" alt="Java" />
-				<img class="techstack" src="images/android.png" alt="Android" />
-				<img class="techstack" src="images/html.png" alt="HTML" />
-				<img class="techstack" src="images/css.png" alt="CSS" />
-				<img class="techstack" src="images/bootstrap.png" alt="Bootstrap" />
-				<img class="techstack" src="images/git.png" alt="Git" />
-				<img class="techstack" src="images/gradle.png" alt="Gradle" />
-				<img class="techstack" src="images/intellij.jpeg" alt="IntelliJ" />
-				<img class="techstack" src="images/netbeans.png" alt="Netbeans" />
-				<img class="techstack" src="images/sts.jpeg" alt="Spring Tool Suite" />
-				<img class="techstack" src="images/tomcat.png" alt="Apache Tomcat" />
-				<img class="techstack" src="images/jenkins.png" alt="Jenkins" />
-				<img class="techstack" src="images/golang.png" alt="GoLang" /> -->
+				<h3><span class="black-span badge">Java</span></h3>
+				<h3><span class="black-span badge">Android</span></h3>
+				<h3><span class="black-span badge">HTML & CSS</span></h3>
+				<h3><span class="black-span badge">JavaScript</span></h3>
+				<h3><span class="black-span badge">Flutter</span></h3>
+				<h3><span class="black-span badge">Clojure</span></h3>
+				<h3><span class="black-span badge">Maven</span></h3>
+				<h3><span class="black-span badge">Gradle</span></h3>
+				<h3><span class="black-span badge">Windows CMD</span></h3>
+				<h3><span class="black-span badge">Linux Terminal</span></h3>
+				<h3><span class="black-span badge">Git</span></h3>
+				<h3><span class="black-span badge">BitBucket</span></h3>
+				<h3><span class="black-span badge">GitHub</span></h3>
+				<h3><span class="black-span badge">Jira</span></h3>
+				<h3><span class="black-span badge">Jenkins</span></h3>
+				<h3><span class="black-span badge">Selenium</span></h3>
+				<h3><span class="black-span badge">FT/QTP</span></h3>
+				<h3><span class="black-span badge">Ranorex</span></h3>
+				<h3><span class="black-span badge">Cypress</span></h3>
+				<h3><span class="black-span badge">Robot Framework</span></h3>
+				<h3><span class="black-span badge">Espresso</span></h3>
 			</div>
 			<div>
 				<h2>...and more. &#128526 </h2>
@@ -131,35 +130,15 @@
 				<h2>Here are some things I have done:</h2>
 			</div>
 			<div id="figures">
-				<!-- <figure> -->
-				<!-- <ul class="projects"> -->
-				<!-- <li> -->
 				<a href="https://play.google.com/store/apps/developer?id=Yanga+Nkohla">
-					<!-- <img class="project-tile" src="images/primer.png" alt="PRIMER" /> -->
-					<h3><span class="black-span">Google PlayStore</span></h3>
+					<h3><span class="black-span badge">Google PlayStore</span></h3>
 				</a>
-				<!-- </li> -->
-				<!-- <figcaption></figcaption> -->
-				<!-- </figure> -->
-				<!-- <figure> -->
-				<!-- <li> -->
 					<a href="https://github.com/yangaxnkohla">
-						<!-- <img class="project-tile" src="images/github.png" alt="GitHub" /> -->
-						<h3><span class="black-span">GitHub</span></h3>
+						<h3><span class="black-span badge">GitHub</span></h3>
 					</a>
-				<!-- </li> -->
-				<!-- </ul> -->
-				<!-- <figcaption></figcaption> -->
-				<!-- </figure> -->
-				<!-- <figure> -->
-				<!-- <li> -->
 				<a href="https://codepen.io/yangaxnkohla">
-					<!-- <img class="project-tile" src="images/codepen.png" alt="CodePen" /> -->
-					<h3><span class="black-span">CodePen</span></h3>
+					<h3><span class="black-span badge">CodePen</span></h3>
 				</a>
-				<!-- </li> -->
-				<!-- <figcaption></figcaption> -->
-				<!-- </figure> -->
 			</div>
 		</div>
 		<!-- END PROJECTS SECTION -->
@@ -173,26 +152,12 @@
 				<h2>Here are some of my other interests:</h2>
 			</div>
 			<div id="figures">
-				<!-- <figure> -->
-				<!-- <ul> -->
-				<!-- <li> -->
 				<a href="https://soundcloud.com/user-374487233">
-					<!-- <img class="other-project-tile" src="images/soundcloud.jpg" alt="soundcloud Projects" /> -->
-					<h3><span class="black-span">SoundCloud</span></h3>
+					<h3><span class="black-span badge">SoundCloud</span></h3>
 				</a>
-				<!-- </li> -->
-				<!-- <figcaption></figcaption> -->
-				<!-- </figure> -->
-				<!-- <figure> -->
-				<!-- <li> -->
 				<a href="https://www.chess.com/member/yangaxnkohla">
-					<!-- <img class="other-project-tile" src="images/chess.png" alt="Chess Games" /> -->
-					<h3><span class="black-span">Chess.com</span></h3>
+					<h3><span class="black-span badge">Chess.com</span></h3>
 				</a>
-				<!-- </li> -->
-				<!-- </ul> -->
-				<!-- <figcaption></figcaption> -->
-				<!-- </figure> -->
 			</div>
 		</div>
 		<!-- END OTHER INTERESTS -->
@@ -203,26 +168,17 @@
 		</div>
 		<div id="contact">
 			<a href="https://www.linkedin.com/in/yanga-nkohla-b0b51382">
-				<img class="sociallinks" src="images/linkedin.png" alt="linkedin.com" />
+				<i class="fa fa-linkedin"></i>
 			</a>
 			<a href="https://github.com/yangaxnkohla">
-				<img class="sociallinks" src="images/github.png" alt="github.com" />
+				<i class="fa fa-github"></i>
 			</a>
 			<a href="https://dev.to/mrconst3llation">
-				<img class="sociallinks" src="images/devto.jpg" alt="dev.to" />
+				<i class="fa fa-code"></i>
 			</a>
 			<a href="https://www.twitter.com/mrconst3llation">
-				<img class="sociallinks" src="images/twitter.png" alt="twitter.com" />
+				<i class="fa fa-twitter-square"></i>
 			</a>
-			<!-- <a href="https://codepen.io/yangaxnkohla/">
-				<img class="sociallinks" src="images/codepen.png" alt="CodePen" />
-			</a> -->
-			<!-- <a href="https://play.google.com/store/apps/details?id=com.nkohla.yanga.primer">
-				<img class="sociallinks" src="images/playstore.png" alt="PlayStore" />
-			</a>
-			<a href="https://soundcloud.com/user-374487233">
-				<img class="sociallinks" src="images/soundcloud.jpg" alt="soundcloud" />
-			</a> -->
 		</div>
 		<!-- END SOCIAL LINKS -->
 

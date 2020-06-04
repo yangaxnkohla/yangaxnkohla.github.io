@@ -143,8 +143,9 @@ div.container.card{
 
 div#welcome-section{
   top: 0;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  text-align: center;
   width: 100%;
 }
 
@@ -361,3 +362,74 @@ figure figcaption {
   margin: 10px;
   opacity: 0.8;
 }
+
+.fa.fa-linkedin {
+	font-size: 30px;
+	margin: 5px;
+	color: lime;
+}
+
+.fa.fa-github {
+	font-size: 30px;
+	margin: 5px;
+	color: lime;
+}
+
+.fa.fa-code {
+	font-size: 30px;
+	margin: 5px;
+	color: lime;
+}
+
+.fa.fa-twitter-square {
+	font-size: 30px;
+	margin: 5px;
+	color: lime;
+}
+
+
+
+p#cool-p{
+  color: lime; 
+  font-family: "Courier";
+  font-size: 12px;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 41em;
+  animation: type 4s steps(60, end); 
+	align-self: center;
+}
+
+p#cool-p:nth-child(2){
+  animation: type2 8s steps(60, end);
+	width: 15em;
+}
+
+p#cool-p a#cool-a{
+  color: lime;
+  text-decoration: none;
+}
+
+span#cool-s{
+  animation: blink 1s infinite;
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+::selection{
+  background: black;
+}
+
