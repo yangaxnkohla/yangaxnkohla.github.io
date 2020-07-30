@@ -432,11 +432,36 @@ span#cool-s{
 ::selection{
   background: black;
 }
-
-
-
 canvas {
   display: block;
   vertical-align: bottom;
 }
 
+.circle {
+  /* position: relative; */
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color:rgb(71, 133, 133);
+  text-align: center;
+  font-size: 55px;
+  font-weight: bold;
+  margin: 10px 5px 10px 5px;
+  /* border: 2px solid black; */
+  /* border: 1px solid transparent;    
+    -webkit-transition: border 0.1s linear, box-shadow 0.1s linear;
+       -moz-transition: border 0.1s linear, box-shadow 0.1s linear;
+            transition: border 0.1s linear, box-shadow 0.1s linear; */
+  border: 1px solid transparent;
+    -webkit-animation: glow 1.0s infinite alternate;  
+     -webkit-transition: border 1.0s linear, box-shadow 1.0s linear;
+       -moz-transition: border 1.0s linear, box-shadow 1.0s linear;
+            transition: border 1.0s linear, box-shadow 1.0s linear;
+  padding: 7px;
+  animation: bounce 1s infinite alternate;
+}
+
+.container.card.lotto{
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
